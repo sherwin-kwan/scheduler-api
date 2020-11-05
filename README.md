@@ -1,4 +1,6 @@
-# Interview Scheduler API
+# Scheduler API
+
+This is meant to be used with a React front-end located [here](https://github.com/sherwin-kwan/hourglass).
 
 ## Setup
 
