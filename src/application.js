@@ -40,7 +40,6 @@ module.exports = function application(
   app.use("/api", days(db));
   app.use("/api", appointments(db, actions.updateAppointment));
   app.use("/api", interviewers(db));
-  console.log('ENV is currently: ', ENV);
 
   if (ENV === "development" || ENV === "test") {
     Promise.all([
